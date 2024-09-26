@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Bebas+Neue&family=Knewave&family=Zen+Antique&family=Noto+Sans:ital@1&display=swap');
+
+
+.para {
+  color : blue;
+  font-family: "Noto Sans";
+}
+
+body {
+  background-color : #00ffff;
+}
+
+h1 {
+  color : red;
+  text-align : center;
+  font-family: "Bebas Neue";
+  text-padding: 2px;
+}
+  .h2 {
+    color : red;
+    text-align: center;
+    font-family: "Andada Pro";
+  }
+
+  h3 {
+    color : red;
+    font-family: "Knewave";
+    font-size: 25px;
+      text-align: center;
+  }
+
+  hr {
+    color : blue;
+  }
+
+.navbar {
+  background-color: #000000;
+  border-radius: 5px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 7px 7px;
+}
+
+.navbar li a {
+  padding: 3px 7px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Zen Antique';
+}
+.navbar li a:hover {
+  background-color: red;
+  border-radius: 4px;
+  }
+
+.navbar ul {
+  overflow: auto;
+}
